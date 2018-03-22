@@ -17,6 +17,12 @@ body {
   padding-bottom: 7.5rem;
 }
 
+.img-portfolio {
+  width: 555px;
+  height: 370px;
+}
+
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
