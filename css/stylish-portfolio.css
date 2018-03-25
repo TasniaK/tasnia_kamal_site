@@ -22,6 +22,12 @@ body {
   height: 370px;
 }
 
+.django-screenshot {
+  width: 640px;
+  height: 440px;
+  border:1px solid #ecb807;
+}
+
 
 .content-section-heading h2 {
   font-size: 3rem;
@@ -97,6 +103,10 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.second-page-background {
+  background-image: url("../img/portfolio.jpg");
 }
 
 .masthead h1 {
