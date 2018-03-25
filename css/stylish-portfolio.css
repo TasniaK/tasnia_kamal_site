@@ -25,7 +25,7 @@ body {
 .django-screenshot {
   width: 640px;
   height: 440px;
-  border:1px solid #ecb807;
+  border:1px solid #00e6e6;
 }
 
 
@@ -105,8 +105,49 @@ h6 {
   background-size: cover;
 }
 
+.w3-container {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .second-page-background {
-  background-image: url("../img/portfolio.jpg");
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.second-page-background-half {
+  min-height: 20rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-3-half.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .masthead h1 {
@@ -311,8 +352,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 footer.footer .social-link {
@@ -361,6 +402,16 @@ a:hover, a:focus, a:active {
   border-color: #ba9106 !important;
 }
 
+.btn-tertiary {
+  background-color: #b30000 !important;
+  border-color: #b30000 !important;
+  color: #fff !important;
+}
+
+.btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+  background-color: #800000 !important;
+  border-color: #800000 !important;
+
 .btn-dark {
   color: #fff !important;
 }
@@ -380,4 +431,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.text-tertiary {
+  color: #e60000 !important;
 }
