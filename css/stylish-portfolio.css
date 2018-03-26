@@ -113,7 +113,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,6 +411,7 @@ a:hover, a:focus, a:active {
 .btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
   background-color: #800000 !important;
   border-color: #800000 !important;
+}
 
 .btn-dark {
   color: #fff !important;
@@ -425,6 +426,10 @@ a:hover, a:focus, a:active {
   background-color: #1D809F !important;
 }
 
+.bg-secondary {
+  background-color: #1D809F !important;
+}
+
 .text-primary {
   color: #1D809F !important;
 }
@@ -435,4 +440,8 @@ a:hover, a:focus, a:active {
 
 .text-tertiary {
   color: #e60000 !important;
+}
+
+.text-quaternary {
+  color: #fff !important;
 }
