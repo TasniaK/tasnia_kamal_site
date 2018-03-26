@@ -105,7 +105,7 @@ h6 {
   background-size: cover;
 }
 
-.w3-container {
+.chem-blog-bg {
   min-height: 30rem;
   position: relative;
   display: table;
@@ -114,6 +114,25 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.blog-box {
+  min-height: 5rem;
+  position: relative;
+  display: table;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 85%;
+  height: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #fff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
