@@ -28,6 +28,11 @@ body {
   border:1px solid #00e6e6;
 }
 
+.bootstrap-screenshot {
+  width: 428px;
+  height: 263px;
+  border:1px solid #3badee;
+}
 
 .content-section-heading h2 {
   font-size: 3rem;
@@ -128,6 +133,21 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/sky.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bootstrap-bg {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 0rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -154,6 +174,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 
 }
 
@@ -173,6 +194,48 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
+
+}
+
+.cheer-blog-box {
+  min-height: 5rem;
+  position: relative;
+  display: table;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 95%;
+  height: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+
+}
+
+.bootstrap-blog-box {
+  min-height: 1rem;
+  position: relative;
+  display: table;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 95%;
+  height: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
 
 }
 
@@ -491,6 +554,19 @@ a:hover, a:focus, a:active {
   border-color: #800000 !important;
 }
 
+.btn-quaternary {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: #fff !important;
+}
+
+.btn-quaternary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+  background-color: #ba9106 !important;
+  border-color: #ba9106 !important;
+}
+
 .btn-dark {
   color: #fff !important;
 }
@@ -512,8 +588,16 @@ a:hover, a:focus, a:active {
   color: #1D809F !important;
 }
 
+.text-primary-light {
+  color: #00bfff !important;
+}
+
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.text-secondary-light {
+  color: #ffd000 !important;
 }
 
 .text-tertiary {
