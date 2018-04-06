@@ -17,19 +17,13 @@ window.onload = function() {
     myMove();
 };
 
-function Attract() {
-    var heart = element.getBoundingClientRect();
-    console.log(heart.top, heart.left);
-    var x = document.onmousemove(event.pageX);
-    var y = document.onmousemove(event.pageY);
-    var id = setInterval(frame, 50);
-    function frame() {
-        if (x == heart.top and y == heart.left) {
-            clearInterval(id);
-        } else {
-            p++;
-            elem.style.top = heart.top + 'px';
-            elem.style.left = heart.left + 'px';
-        }
+function TrackMouse() {
+	var id = setInterval(showCoords(event), 5000);
+	function showCoords(event) {
+    	var x = event.clientX;
+    	var y = event.clientY;
+    	var coords = "X coords: " + x + ", Y coords: " + y;
+    	document.getElementById("demo").innerHTML = coords;
     }
+
 }
