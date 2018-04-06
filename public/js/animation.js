@@ -1,5 +1,5 @@
 function myMove() {
-    var elem = document.getElementById("myAnimation"); 
+    var elem = document.getElementById("myAnimation");
     var pos = 0;
     var id = setInterval(frame, 50);
     function frame() {
@@ -18,12 +18,20 @@ window.onload = function() {
 };
 
 function TrackMouse() {
-	var id = setInterval(showCoords(event), 5000);
-	function showCoords(event) {
-    	var x = event.clientX;
-    	var y = event.clientY;
-    	var coords = "X coords: " + x + ", Y coords: " + y;
-    	document.getElementById("demo").innerHTML = coords;
-    }
+    var x = event.clientX;
+    var y = event.clientY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+    document.getElementById("demo").innerHTML = coords;
 
 }
+
+//function TrackIcon() {
+    //var elem = document.getElementById("myAnimation");
+   	//var x = event.clientX;
+   	//var y = event.clientY;
+    //var coords = "X coords: " + x + ", Y coords: " + y;
+    //document.getElementById("demo1").innerHTML = coords;
+    //}
+
+//}
+
