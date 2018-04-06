@@ -1,0 +1,78 @@
+[debug] [2018-03-30T22:17:18.126Z] ----------------------------------------------------------------------
+[debug] [2018-03-30T22:17:18.130Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-03-30T22:17:18.131Z] CLI Version:   3.17.7
+[debug] [2018-03-30T22:17:18.131Z] Platform:      darwin
+[debug] [2018-03-30T22:17:18.131Z] Node Version:  v8.11.1
+[debug] [2018-03-30T22:17:18.132Z] Time:          Fri Mar 30 2018 23:17:18 GMT+0100 (BST)
+[debug] [2018-03-30T22:17:18.132Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-30T22:17:18.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-30T22:17:18.151Z] > authorizing via signed-in user
+[debug] [2018-03-30T22:17:18.154Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-30T22:17:18.155Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/a32_e16H61i0Yqr5l_NjN1L2gyLOAulg8K5eZxeZ9tw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Mar 30 2018 23:17:18 GMT+0100 (BST)
+[debug] [2018-03-30T22:17:18.773Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-30T22:17:18.824Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tasnia-kamal-site  
+  
+ Fri Mar 30 2018 23:17:18 GMT+0100 (BST)
+[debug] [2018-03-30T22:17:19.499Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-30T22:17:19.501Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tasnia-kamal-site/tokens  
+  
+ Fri Mar 30 2018 23:17:19 GMT+0100 (BST)
+[debug] [2018-03-30T22:17:20.105Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tasnia-kamal-site'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-03-30T22:17:23.193Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tasnia-kamal-site/uploads/-L8sz6zYOhnDMOICOZMo?fileCount=128&message=  
+  
+ Fri Mar 30 2018 23:17:23 GMT+0100 (BST)
+[debug] [2018-03-30T22:18:32.562Z] ----------------------------------------------------------------------
+[debug] [2018-03-30T22:18:32.568Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --debug
+[debug] [2018-03-30T22:18:32.569Z] CLI Version:   3.17.7
+[debug] [2018-03-30T22:18:32.569Z] Platform:      darwin
+[debug] [2018-03-30T22:18:32.569Z] Node Version:  v8.11.1
+[debug] [2018-03-30T22:18:32.570Z] Time:          Fri Mar 30 2018 23:18:32 GMT+0100 (BST)
+[debug] [2018-03-30T22:18:32.570Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-30T22:18:32.588Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-30T22:18:32.588Z] > authorizing via signed-in user
+[debug] [2018-03-30T22:18:32.592Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tasnia-kamal-site  
+  
+ Fri Mar 30 2018 23:18:32 GMT+0100 (BST)
+[debug] [2018-03-30T22:18:33.351Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-30T22:18:33.353Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tasnia-kamal-site/tokens  
+  
+ Fri Mar 30 2018 23:18:33 GMT+0100 (BST)
+[debug] [2018-03-30T22:18:34.208Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tasnia-kamal-site'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-03-30T22:18:37.069Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tasnia-kamal-site/uploads/-L8szP46flBkwASEbUDo?fileCount=128&message=  
+  
+ Fri Mar 30 2018 23:18:37 GMT+0100 (BST)
+[debug] [2018-03-30T22:22:31.092Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-30T22:22:31.093Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[info] ✔  hosting: 128 files uploaded successfully
+[debug] [2018-03-30T22:22:31.781Z] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/tasnia-kamal-site/releases  
+ { hosting: 
+   { public: 'public',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     version: '-L8szP46flBkwASEbUDo',
+     prefix: '-L8szP46flBkwASEbUDo/',
+     manifest: [] } } 
+ Fri Mar 30 2018 23:22:31 GMT+0100 (BST)
+[debug] [2018-03-30T22:22:33.622Z] <<< HTTP RESPONSE 200
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/tasnia-kamal-site/overview
+[info] Hosting URL: https://tasnia-kamal-site.firebaseapp.com
