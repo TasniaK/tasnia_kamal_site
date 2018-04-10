@@ -3,6 +3,11 @@ var yMouse = 0;
 var xIcon = 0;
 var yIcon = 0;
 
+function changeIcon() {
+    var elem = document.getElementById("myAnimation");
+    elem.className = "fa fa-heart";
+}
+
 function myMove() {
     var elem = document.getElementById("myAnimation");
     var pos = 0;
